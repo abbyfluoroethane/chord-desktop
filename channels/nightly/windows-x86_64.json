@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0-nightly.20261004+b1592128",
-  "build": 1592128,
-  "channel": "nightly",
-  "commit": "2fd95e6",
-  "pub_date": "2026-10-04T13:55:17Z",
-  "release_url": "https://github.com/abbyfluoroethane/chord-nightly/releases/tag/desktop-v0.1.0-nightly.20261004%2B2fd95e6",
-  "notes": "A nightly build of `main`. It can break.\n\n- Recreate the empty folders of the Flatpak repository after a git checkout\n- Pick the rustls crypto backend at start so the desktop login does not panic\n- Sign the macOS app ad hoc so macOS offers Open Anyway\n- Add the crates of the Flatpak portal to the offline Flatpak sources\n- Update the desktop app through the Flatpak portal on Linux\n- Ship Linux as a Flatpak from a self-hosted repository\n- Point the Flatpak manifest at a commit that has the packaging\n- Let the link preview cap test pass while other tests hold a permit\n- Give every npm lockfile entry its tarball URL and integrity\n- Add a Flatpak build of Chord Desktop from source\n\nBuilt from commit `2fd95e6` of the Chord source.",
-  "url": "https://github.com/abbyfluoroethane/chord-nightly/releases/download/desktop-v0.1.0-nightly.20261004%2B2fd95e6/Chord_0.1.0-nightly.20261004_x64-setup.exe",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURWRETzNMSVFFL0UzZ1NETHczUkxSd01WTFNHdHg4cnloTzVrVEZ0bGFFZzlaWUNqTm1PNGtCMlNSTm81U1Jtanc4N1MzOXRIaHRUcEVXQzBIcnpHV1NJT3FlYi8weUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTIxNzU3CWZpbGU6Q2hvcmRfMC4xLjAtbmlnaHRseS4yMDI2MTAwNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4xLjAtbmlnaHRseS4yMDI2MTAwNApPaWNSSTRheEVjalR0eTB6S0p0bk9YUmlCVVNsSGtCcFBWTi9QSzE3ME1QeVFLL1VxWTJWRHdoQXJZTlJqZU0zVzN5ZThZY2ljVnVtdHV5ZkgxY0REZz09Cg=="
+  "version": "0.1.0-beta.3+b1595405",
+  "build": 1595405,
+  "channel": "beta",
+  "commit": "c988978",
+  "pub_date": "2026-10-04T23:47:07Z",
+  "release_url": "https://github.com/abbyfluoroethane/chord-desktop/releases/tag/v0.1.0-beta.3%2Bc988978",
+  "notes": "The Flatpak sandbox gets no outside variables, so the Linux build shipped\nwith no GIF search key. CI now writes the CHORD_KLIPY_KEY secret into the\nmanifest, the same way it writes the version.",
+  "url": "https://github.com/abbyfluoroethane/chord-desktop/releases/download/v0.1.0-beta.3%2Bc988978/Chord_0.1.0-beta.3_x64-setup.exe",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURWRETzNMSVFFL09EdjhFZ3AxczhKWTRVYmFLbnBmRVAwYnordjZVOExRaWlENkZma0pwTDhPMzY3VVdjYVdCbXdYK05SM3BBWm00VWJicytXekpSK1FVNXN0YVVDb3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTU3NDQxCWZpbGU6Q2hvcmRfMC4xLjAtYmV0YS4zX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMC1iZXRhLjMKVTBSSElIdUY2SzNKU0VhekhpTFVLQnNRNUJzMjRYdUtaelE2ZGxMWU1UN2xVeVNTRFFUeVdCN2lzZzR2NGh1c1JJMC9DZFhQNDhyTjgxZ0NFRXFBRGc9PQo="
 }
