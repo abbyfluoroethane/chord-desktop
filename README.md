@@ -3,7 +3,7 @@
 Release builds of Chord Desktop. This repository holds only releases. The source is in the Chord
 repository.
 
-Linux: `.AppImage`, `.deb` or `.rpm`. Windows: the `-setup.exe` installer. macOS: the `.dmg`. The builds are not signed yet, so Windows and macOS show a warning the first time.
+Linux: `.AppImage`, `.deb` or `.rpm`. Windows: the `-setup.exe` installer. macOS: the `.dmg`. The builds are not signed with a Developer ID yet. Windows SmartScreen warns once. On macOS, open System Settings → Privacy & Security and click Open Anyway. For 0.1.0-beta.1, which is not signed at all, macOS says Chord is damaged: run `xattr -dr com.apple.quarantine /Applications/Chord.app` once.
 
 **[Download the latest release](https://github.com/abbyfluoroethane/chord-desktop/releases/latest)**. Betas are listed as
 pre-releases on the [releases page](https://github.com/abbyfluoroethane/chord-desktop/releases).
