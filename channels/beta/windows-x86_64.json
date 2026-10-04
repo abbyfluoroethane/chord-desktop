@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0-beta.2+b1591981",
-  "build": 1591981,
+  "version": "0.1.0-beta.3+b1595405",
+  "build": 1595405,
   "channel": "beta",
-  "commit": "2822650",
-  "pub_date": "2026-10-04T09:34:14Z",
-  "release_url": "https://github.com/abbyfluoroethane/chord-desktop/releases/tag/v0.1.0-beta.2%2B2822650",
-  "notes": "Git keeps no empty folders, so the repository from gh-pages lacked refs/remotes and the second\npublish failed with \"opendir(refs/remotes): No such file or directory\".",
-  "url": "https://github.com/abbyfluoroethane/chord-desktop/releases/download/v0.1.0-beta.2%2B2822650/Chord_0.1.0-beta.2_x64-setup.exe",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURWRETzNMSVFFL05ZV3NjbXdzWGU3MmtQTU9ldFVZYk91L01ONHk5UEpudTlweFJTR3FuSVlHc2FLbDdUS21XV21lc2VSa0U2VUFrS1NFOUFObHRrWEpLVlpnRTZJUkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTA2MDI3CWZpbGU6Q2hvcmRfMC4xLjAtYmV0YS4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMC1iZXRhLjIKV1dJbFE5cXl1TEVDQ0c1eEhzQ0ljNjRWWnQ5Nzd4R2lvWXBTV0c2blZTM1l6elg0b3NLcjVUdEdWUWlOd3l5aUdZV3IvVllnSEFMcWNwY0xmZUQ1RGc9PQo="
+  "commit": "c988978",
+  "pub_date": "2026-10-04T23:47:07Z",
+  "release_url": "https://github.com/abbyfluoroethane/chord-desktop/releases/tag/v0.1.0-beta.3%2Bc988978",
+  "notes": "The Flatpak sandbox gets no outside variables, so the Linux build shipped\nwith no GIF search key. CI now writes the CHORD_KLIPY_KEY secret into the\nmanifest, the same way it writes the version.",
+  "url": "https://github.com/abbyfluoroethane/chord-desktop/releases/download/v0.1.0-beta.3%2Bc988978/Chord_0.1.0-beta.3_x64-setup.exe",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURWRETzNMSVFFL09EdjhFZ3AxczhKWTRVYmFLbnBmRVAwYnordjZVOExRaWlENkZma0pwTDhPMzY3VVdjYVdCbXdYK05SM3BBWm00VWJicytXekpSK1FVNXN0YVVDb3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTU3NDQxCWZpbGU6Q2hvcmRfMC4xLjAtYmV0YS4zX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMC1iZXRhLjMKVTBSSElIdUY2SzNKU0VhekhpTFVLQnNRNUJzMjRYdUtaelE2ZGxMWU1UN2xVeVNTRFFUeVdCN2lzZzR2NGh1c1JJMC9DZFhQNDhyTjgxZ0NFRXFBRGc9PQo="
 }
