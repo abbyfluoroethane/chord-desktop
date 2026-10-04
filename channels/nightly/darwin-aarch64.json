@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0-beta.1+b1591429",
-  "build": 1591429,
-  "channel": "beta",
-  "commit": "3f42c05",
-  "pub_date": "2026-10-04T07:53:16Z",
-  "release_url": "https://github.com/abbyfluoroethane/chord-desktop/releases/tag/v0.1.0-beta.1%2B3f42c05",
-  "notes": "",
-  "url": "https://github.com/abbyfluoroethane/chord-desktop/releases/download/v0.1.0-beta.1%2B3f42c05/Chord_0.1.0-beta.1_aarch64.app.tar.gz",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURWRETzNMSVFFL080RmxSL205WVRmdEduZGtFUTZqUnhWbjBlTVZZUy9ZcE43dlhXMEN0bjZjY1NRS1hOT3g2dHdDVUIvaDVqdGlUbkh0WG9NekJSR01aeTNwY1JiRFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDk4MzYxCWZpbGU6Q2hvcmQuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4wLWJldGEuMQpwaTkyY24wNHZFOGtHZ1A2VDFIS1Q3T2ZEc3VMc3daSFFrTDk2bmgwcUE0cUUrMWJqZ1lJQnJ2bis1aDQyRjhqUm8zNjRQMlo4WTNPZFlXREZHUFpDdz09Cg=="
+  "version": "0.1.0-nightly.20261004+b1591820",
+  "build": 1591820,
+  "channel": "nightly",
+  "commit": "b568755",
+  "pub_date": "2026-10-04T08:57:35Z",
+  "release_url": "https://github.com/abbyfluoroethane/chord-nightly/releases/tag/desktop-v0.1.0-nightly.20261004%2Bb568755",
+  "notes": "A nightly build of `main`. It can break.\n\n- Pick the rustls crypto backend at start so the desktop login does not panic\n- Sign the macOS app ad hoc so macOS offers Open Anyway\n- Add the crates of the Flatpak portal to the offline Flatpak sources\n- Update the desktop app through the Flatpak portal on Linux\n- Ship Linux as a Flatpak from a self-hosted repository\n- Point the Flatpak manifest at a commit that has the packaging\n- Let the link preview cap test pass while other tests hold a permit\n- Give every npm lockfile entry its tarball URL and integrity\n- Add a Flatpak build of Chord Desktop from source\n- Add the MPL-2.0 licence text to the vendored tokio-xmpp\n\nBuilt from commit `b568755` of the Chord source.",
+  "url": "https://github.com/abbyfluoroethane/chord-nightly/releases/download/desktop-v0.1.0-nightly.20261004%2Bb568755/Chord_0.1.0-nightly.20261004_aarch64.app.tar.gz",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURWRETzNMSVFFL0lseHk3ckhCWGRVeit1RVNkZEQ2M09QZm9uaGYzZjJ5VCtjSXFzZVZnalZUNjBXbkVqaGFLeUdwRlY0dHJ5aTJWT0RWd3E5OG00UmVGeTVzcEYvVlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTAzODA5CWZpbGU6Q2hvcmQuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4wLW5pZ2h0bHkuMjAyNjEwMDQKMldvYWlnZTFCMElaMHlUT0pweUxFaUVuZ3FldTB4RUI1d3hxUmo3RTRaSWZUazd5ZWVUVTduUlkrVGFOK3Uva2lNelhjck9tS1F2bmR4ZUpHQ1JlQlE9PQo="
 }
